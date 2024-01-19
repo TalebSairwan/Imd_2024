@@ -5,15 +5,15 @@
   .box{
     width: 100%;
     height: 100%;
-    background: powderblue;
+    background: rgb(250, 248, 255);
   }
   .menu{
-    background: rosybrown;
+    background: rgb(250, 248, 255);
     height: 140px;
   }
   .menu ul{
     display: inline-flex;
-    margin: 50px;
+    margin: 30px;
     text-decoration: none !important;
     
   }
@@ -27,6 +27,7 @@
     margin-bottom: 100px;
     
   }
+  
   .picture img{
     width: 180px;
     margin-top: -7px;
@@ -37,7 +38,7 @@
     color:lightsalmon !important;
   }
   .we {
-      color: blue !important;
+      color: rgb(168, 192, 212) !important;
       text-decoration: underline;
   }
   .banner{
@@ -46,7 +47,7 @@
     top: 15%;
     left: 130 px;
     position: absolute;
-    color: white;
+    color: rgb(172, 170, 182);
   }
   .app-text{
     width: 50%;
@@ -100,7 +101,7 @@
   }
 
   .dropbtn {
-    background-color: rosybrown;
+    background-color: rgb(250, 248, 255);
     color: lightsalmon;
     font-size: 16px;
     border: none;
@@ -118,7 +119,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: lightsteelblue;
+    background-color: rgb(126, 146, 173);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -132,7 +133,11 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: purple !important;
+}
+
   
   .dropdown:hover .dropdown-content {display: block;}
   

@@ -1,0 +1,76 @@
+.painting-2{
+    display:grid;
+    width:600px;
+    height:600px;
+    border: 1px solid black;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+
+}
+
+.darkBlue {
+    background-color: #2a384e;
+}
+
+.Green {
+    background-color: #d9f0c7;
+}
+
+.yellow {
+    background-color: #FECE39;
+}
+
+.lightBlue {
+    background-color: #0882E4;
+}
+
+.Blue {
+    background-color:#1C3DB2;
+}
+
+.green2 {
+    background-color: #28A16F;
+}
+
+.pink {
+    background-color: #FDD8D4;
+}
+
+.red {
+    background-color: #cb3a41;
+}
+
+.orange {
+    background-color: #F1A250;
+}
+
+.black {
+    background-color: #1F1D20;
+}
+
+.border-left-lightblue{
+    border-left: 20px solid #0882E4}
+
+.border-top-blue {
+    border-top: 20px solid #0882E4;
+}
+
+.border-bottom_yellow {
+    border-bottom: 20px solid #fac936;
+}
+.border-bottom_orange {
+    border-bottom: 20px solid #f89537;
+}
+.border-bottom_red {
+    border-bottom: 20px solid #d13f46;
+}
+.button{
+    margin-top: 50px;
+
+
+}
+.button2{
+    margin-left: 570px;
+    
+    
+}

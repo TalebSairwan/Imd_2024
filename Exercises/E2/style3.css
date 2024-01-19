@@ -1,0 +1,32 @@
+.painting-3{
+    display:grid;
+    width:600px;
+    height:600px;
+    border: 1px solid black;
+    grid-template-columns: repeat(37, 1fr);
+    grid-template-rows: repeat(37, 1fr);
+
+}
+
+.grey{
+    background-color: grey;
+}
+.white{
+    background-color: white;
+
+}
+.Black{
+    background-color: black;
+
+}
+.blue{
+    background-color: rgb(41, 41, 224);
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+
+
+}
