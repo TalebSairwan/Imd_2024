@@ -5,6 +5,7 @@
     position: relative;
     align-items: center;
 }
+
 .pitch:after{
   content: "";
   border-left: 1px solid white;
