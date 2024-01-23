@@ -1,11 +1,10 @@
 .pitch{
-    background-color: #001602;
+    background-color: #48af4f;
     width: 590px;
     height: 380px;
     position: relative;
     align-items: center;
 }
-
 .pitch:after{
   content: "";
   border-left: 1px solid white;
