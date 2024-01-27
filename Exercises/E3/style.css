@@ -1,0 +1,97 @@
+h2{
+    text-align: center;
+}
+/* align text */
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Adobe font */
+.adobe{
+    font-family: "club-lithographer", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+
+    &:hover{
+        color: rgb(230, 159, 230);
+        animation-name: grow;
+        animation-duration: 5s;
+    }
+}
+/*google font */
+.google{
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+
+
+    &:hover{
+        color: rgb(137, 219, 134);
+        animation-name: rotate;
+        animation-duration: 2s;
+    }
+}
+
+/* self hosted font*/
+@font-face {
+    font-family: 'Bespoke';
+    src: url('Fonts/Bespoke-vGlsXeHjML.eot');
+    src: url('Fonts/Bespoke-vGlsXeHjML.eot?#iefix') format('embedded-opentype'),
+       url('Fonts/Bespoke-vGlsXeHjML.woff') format('woff'),
+       url('Fonts/Bespoke-vGlsXeHjML.ttf') format('truetype'),
+       url('Fonts/Bespoke-vGlsXeHjML.svg#Bespoke-vGlsXeHjML') format('svg');
+  }
+
+  .self{
+    font-family: 'Bespoke', sans-serif;
+    font-size: 70px;
+
+/*do the animation on command*/
+    &:hover{
+        color: rgb(99, 155, 203);
+        animation-name: teleport;
+        animation-duration: 2s;
+    }
+
+}
+/* this is how i amde the text increase size */
+
+@keyframes grow{
+    from{
+        transform: scale(1,1);
+    }
+   
+    to{
+        transform: scale(2,2);
+    }
+
+}
+/* this is how i amde the text rotate*/
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+
+/* I wanted to make it teleport but i dont know how its easing i want it to randomly disappear and then pop up*/
+
+@keyframes teleport{
+
+  0%{
+    transform: translate(0px,0px);
+  }
+
+  100%{
+    transform: translate(400px,290px);
+
+  }
+}
