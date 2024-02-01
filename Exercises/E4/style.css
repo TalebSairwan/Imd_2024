@@ -24,6 +24,9 @@ header {
 
 ul {
     list-style-type: none;
+    font-weight: 500;
+
+
 
     li {
         font-size: 18px;
@@ -56,6 +59,9 @@ h1 {
 
 .call-to-action {
     text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 545;
 }
 
 h2 {
@@ -68,4 +74,78 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     height: 320px;
     border: 1px solid black;
+    border-top: 0px;
+}
+
+.info-section-item {
+    border-right: 1px solid black;
+    padding: 31px 37px;
+
+    &:last-child {
+        border-right: 0px;
+
+    }
+
+}
+
+.info-section-content {
+    height: 90%;
+
+    h3 {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+footer {
+    display: flex;
+    border: 1px solid black;
+    border-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 36px;
+
+    h4 {
+        font-size: 18px;
+        padding-bottom: 9px;
+    }
+}
+
+.footer-left {
+    width: 249px;
+}
+
+.p-second {
+    font-size: 10px;
+}
+
+.social-link {
+    li {
+        font-size: 14px;
+        font-weight: 540;
+        padding-right: 28px;
+
+        &:last-child {
+            padding-right: 0px;
+        }
+    }
+}
+
+.footer-right {
+    li {
+        font-size: 18px;
+        font-weight: 545;
+        padding-bottom: 16px;
+        display: block;
+
+        &:last-child {
+            padding-bottom: 0px;
+        }
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
