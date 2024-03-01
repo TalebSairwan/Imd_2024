@@ -321,6 +321,7 @@ h4:hover:after {
     }
 }
 
+
 @keyframes scaleUp {
     0% {
         transform: scale(0);
