@@ -10,7 +10,7 @@ for (let i = 0; i < 500; i++) {
 $('div').each(function () {
 
     $(this).on('mouseenter', function () {
-        // $(this).delay(2000).fadeIn(400).addClass('no-width');
+        $(this).addClass('no-width');
     })
 })
 

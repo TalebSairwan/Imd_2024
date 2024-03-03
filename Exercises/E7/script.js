@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".Button").click(function () {
         $(".Div").fadeOut(800, function () {
-            $(this).text("Content changed!").fadeIn(800);
+            $(this).text("Now I am a full Box :)").fadeIn(800);
         });
     });
 

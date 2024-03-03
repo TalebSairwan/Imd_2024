@@ -35,7 +35,7 @@ header {
         margin-top: 20px;
         font-style: italic;
         color: #fcff3c;
-        text-shadow: 1px 1px 2px pink;
+        text-shadow: 1px 1px 2px rgb(108, 186, 235);
 
         &:nth-child(even) {
             color: #fff6e5;
@@ -131,30 +131,22 @@ h1 {
     }
 }
 
-h3 {
-    font-family: "gopher", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #caccb6;
-}
-
 
 
 .names {
     font-size: 1.6vw;
-    font-family: "gopher", sans-serif;
-    font-weight: 300;
+    font-family: "bryant-web", sans-serif;
+    font-weight: 400;
     font-style: italic;
     color: #ffffff;
-    padding-bottom: 4vw;
+    padding-top: 3vw;
     text-align: center;
 }
 
 .greyname {
-    font-size: 1.6vw;
-    font-family: "gopher", sans-serif;
+    font-family: "bryant-web", sans-serif;
     font-weight: 700;
-    font-style: regular;
+    font-style: normal;
     color: #a3a3a3;
     transition: font-size 750ms ease;
 
@@ -203,9 +195,9 @@ h3 {
 }
 
 .date {
-    font-size: 2vw;
-    font-family: "gopher", sans-serif;
-    font-weight: 300;
+    font-size: 3vw;
+    font-family: "diazo-mvb-rough1-ex-cond", sans-serif;
+    font-weight: 500;
     font-style: italic;
     color: white;
 
@@ -215,9 +207,9 @@ h3 {
 }
 
 .mid {
-    display: flex;
     width: 100%;
     height: 20vw;
+    display: flex;
     justify-content: space-between;
     padding-left: 20%;
     padding-right: 20%;
@@ -225,9 +217,9 @@ h3 {
 }
 
 h4 {
-    font-family: "gopher", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "gelica", sans-serif;
+    font-weight: 200;
+    font-style: italic;
     color: #90914b;
     font-size: 2vw;
     display: inline-block;
@@ -264,18 +256,17 @@ h4:hover:after {
 }
 
 .question {
+    font-size: 1.5vw;
+    font-family: "headline-gothic-atf", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     display: flex;
     font-size: 3vw;
     align-items: center;
     text-align: center;
-    font-size: 1.5vw;
-    font-family: "Bespoke-yBqAQc5Qoa", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 9px;
+    letter-spacing: 8px;
     color: #f1ff3f;
     text-shadow: 0.1vw 0.1vw #f4c74b;
-    padding-top: 6vw;
     transition: font-size 750ms ease;
     animation-name: grow;
     animation-duration: 5000ms;
@@ -300,11 +291,14 @@ h4:hover:after {
     display: flex;
     font-size: 2vw;
     font-family: "owners-wide", sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     font-style: normal;
     letter-spacing: 4px;
     color: white;
     padding-right: 8vw;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 5vw;
 }
 
 @-webkit-keyframes glow {
