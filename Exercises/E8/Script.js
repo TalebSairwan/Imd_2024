@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const ImageDog = document.getElementById("DogImg");
+    const imageDog = document.getElementById("DogImg");
     const reloadButton = document.getElementById("SupriseButton");
 
     async function fetchRandomDog() {
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     async function updateDogPicture() {
         const imageUrl = await fetchRandomDog();
-        dogImage.src = imageUrl;
+        imageDog.src = imageUrl;
     }
 
     updateDogPicture();
