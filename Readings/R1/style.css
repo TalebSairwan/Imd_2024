@@ -1,0 +1,54 @@
+canvas {
+    display: block;
+    background: linear-gradient(to right, #8e36eb, #d1aeee);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.title {
+    font-family: "filmotype-carmen", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    color: azure;
+}
+
+.response1 {
+    font-family: "filmotype-carmen", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    color: azure;
+
+}
+
+.response2 {
+    font-family: "filmotype-carmen", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    position: relative;
+    top: 300px;
+    color: azure;
+
+}
+
+.response3 {
+    font-family: "filmotype-carmen", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    position: relative;
+    top: 400px;
+    color: azure;
+
+}
