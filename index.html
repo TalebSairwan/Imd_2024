@@ -1,55 +1,147 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <title>Index: A Collection of Work</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Favicon/favicon.ico" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/sfk6ljp.css">
 </head>
 
 <body>
-
-    <div class="box">
-        <div class="menu">
-            <ul>
-                <li class="picture"><img src="Logo-02.png" title="This is the school that I work at"></li>
-                <li><a class='header-link' href="About/_blank" target="_blank">About</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Exercies</button>
-                    <div class="dropdown-content">
-                        <a href="Exercies 1.html">Exercies 1</a>
-                        <a href="Exercises/E2/Index.html">Exercies 2</a>
-                        <a href="Exercises/E3/index.html">Exercies 3</a>
-                        <a href="Exercises/E4/Index.html">Exercies 4</a>
-                        <a href="Exercises/E5/index.html">Exercies 5</a>
-                        <a href="Exercises/E6/index.html">Exercies 6</a>
-                        <a href="Exercises/E7/index.html">Exercies 7</a>
-                        <a href="Exercises/E8/Index.html">Exercies 8</a>
-                        <a href="Exercises/E9/_blank">Exercies 9</a>
-                        <a href="Exercises/E10/_blank">Exercies 10</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <button class="dropbtn">Projects</button>
-                    <div class="dropdown-content">
-                        <a href="Projects/P1/Index.html">Project 1</a>
-                        <a href="Projects/P2/index.html">Project 2</a>
-                        <a href="Projects/P2/process-template.html">Project 2 process</a>
-                        <a href="Projects/P3/index.html">Project 3</a>
-                        <a href="Projects/P3/process-template.html">Project 3 process</a>
-                    </div>
-                </div>
-                <li><a class='header-link' href="Final/_blank" target="_blank">Final</a></li>
-            </ul>
-        </div>
-
-
-        <div class="banner">
-            <div class="app-text">
-                <h1> Welcome to my Website </h1>
+    <canvas id="starfield"></canvas>
+    <section class="card-container">
+        <div class="card" style="--i:0;">
+            <div class="card-face card-front">
+                <!-- Front of Card 1 Here -->
+                <img src="Couse pic/I.png" alt="Card 1 Front">
+            </div>
+            <div class="card-face card-back">
+                <!-- Back of Card 1 Here -->
+                <img src="Background Picture/Projects.png">
+                <a href="Projects/P1/Index.html">
+                    <div class="P1">P1: StoryBook</div>
+                </a>
+                <a href="Projects/P2/index.html">
+                    <div class="P2">P2: Poster</div>
+                </a>
+                <a href="Projects/P3/index.html">
+                    <div class="P3">P3: Interaction</div>
+                </a>
+                <a href="Projects/P1/process-template.html">
+                    <div class="P4">P1: Process</div>
+                </a>
+                <a href="Projects/P2/process-template.html">
+                    <div class="P5">P2: Process</div>
+                </a>
+                <a href="Projects/P3/process-template.html">
+                    <div class="P6">P3: Process</div>
+                </a>
             </div>
         </div>
-    </div>
-</body>
 
+
+
+        <div class="card" style="--i:1;">
+            <div class="card-face card-front">
+                <!-- Front of Card 2 Here -->
+                <img src="Couse pic/M.png" alt="Card 2 Front">
+            </div>
+            <div class="card-face card-back">
+                <!-- Back of Card 2 Here -->
+
+                <img src="Background Picture/Exercises.png">
+                <a href="index.html">
+                    <div class="E1">E1: GitHub</div>
+                </a>
+                <a href="Exercises/E2/Index.html">
+                    <div class="E2">E2: Grid</div>
+                </a>
+                <a href="Exercises/E3/index.html">
+                    <div class="E3">E3: Fonts & Animation</div>
+                </a>
+                <a href="Exercises/E4/Index.html">
+                    <div class="E4">E4: Flexbox</div>
+                </a>
+                <a href="Exercises/E5/index.html">
+                    <div class="E5">E5: Responsive</div>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="card" style="--i:2;">
+            <div class="card-face card-front">
+                <!-- Front of Card 3 Here -->
+                <img src="Couse pic/W.png" alt="Card 3 Front">
+            </div>
+            <div class="card-face card-back">
+                <!-- Back of Card 3 Here -->
+
+                <img src="Background Picture/Exercises.png">
+                <a href="Exercises/E6/index.html">
+                    <div class="E1">E6: JavaScript</div>
+                </a>
+                <a href="Exercises/E7/index.html">
+                    <div class="E2">E7: Jquery</div>
+                </a>
+                <a href="Exercises/E8/Index.html">
+                    <div class="E3">E8: JSON</div>
+                </a>
+                <a href="index.html">
+                    <div class="E4">E9: Favicon</div>
+                </a>
+                <a href="index.html">
+                    <div class="E5">E10: Domain</div>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="card" style="--i:3;">
+            <div class="card-face card-front">
+                <!-- Front of Card 4 Here -->
+                <img src="Couse pic/2.png" alt="Card 4 Front">
+            </div>
+            <div class="card-face card-back">
+                <!-- Back of Card 4 Here -->
+
+                <img src="Background Picture/Readings.png">
+                <a href="Readings/R1/Index.html">
+                    <div class="E1">R1: A Handmade Web</div>
+                </a>
+                <a href="Readings/R2/Index.html">
+                    <div class="E2">R2: What Screens Want</div>
+                </a>
+                <a href="Readings/R3/Index.html">
+                    <div class="E3">R3: My website is a shifting house next to a river of knowledge</div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="--i:4;">
+            <div class="card-face card-front">
+                <!-- Front of Card 5 Here -->
+                <img src="Couse pic/4.png" alt="Card 5 Front">
+            </div>
+            <div class="card-face card-back">
+                <!-- Back of Card 5 Here -->
+
+                <img src="Background Picture/Other.png">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
